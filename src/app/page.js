@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 
+
 function Square({value, onClick}) {
   return (
     <button className= "square" onClick={onClick}>
@@ -114,6 +115,7 @@ export default function Game() {
 
   return ( 
     <div className= "game">
+    <h1>Testing Auto deployment</h1>
       <div className= "game-board">
         <Board squares = {currentSquares} xIsNext={xIsNext} onPlay={handlePlay}/>
       </div>
